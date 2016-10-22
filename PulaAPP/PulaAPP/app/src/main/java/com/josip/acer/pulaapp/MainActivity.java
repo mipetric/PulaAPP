@@ -54,13 +54,3 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-    public void myClickHandler(View view) {
-
-        ConnectivityManager veza = (ConnectivityManager)
-                getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo informacije = veza.getActiveNetworkInfo();
-        if (informacije != null && informacije.isConnected()) {
-            // fetch dat
-        } else {
-            // display error
-        }
