@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo informacije = veza.getActiveNetworkInfo();
         if (informacije != null && informacije.isConnected()) {
-            // fetch data
+            // fetch dat
         } else {
             // display error
         }
