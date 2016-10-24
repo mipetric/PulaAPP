@@ -2,8 +2,5 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.josip.acer.pulaapp.MainActivity">
-    <item android:id="@+id/settings"
-        android:title="@string/settings" />
-    <item android:id="@+id/refresh"
-        android:title="@string/refresh" />
+
 </menu>
