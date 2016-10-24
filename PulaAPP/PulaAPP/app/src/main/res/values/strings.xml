@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PulaAPP</string>
     <string name="settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
 
 
 </resources>
